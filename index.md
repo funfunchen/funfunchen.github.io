@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### Softwares
 
-[Project 1 Title](/sample_page)
+[rareGWAMA](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
