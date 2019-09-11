@@ -4,7 +4,7 @@
 
 ### Softwares
 
-[rareGWAMA](/sample_page)
+[rareGWAMA](/pages/rareGWAMA_page)
 <img src="images/rareGWAMA_demo_1.png?raw=true"/>
 
 ---
