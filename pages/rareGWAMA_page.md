@@ -261,7 +261,11 @@ res <- res.gene$res.formatted %>% as.data.frame
 write_tsv(res, './results/cpd_SKAT_my_geneaa', na = "NA") ## here we use `write_tsv` from dplyr, or you could use `write.table`
 ```
 
+<<<<<<< HEAD
 ### 2.3 Summarize the results
+=======
+###2.3 Summarize the results
+>>>>>>> 33d022407579999472ee5e430acc2428ccca2da2
 
 Now you have the result in the folder:
 
@@ -301,7 +305,11 @@ You could gather them together
 for f in cpd_SKAT_my_gene*; do tail -n +2 $f >> cpd_SKAT_all; done
 ```
 
+<<<<<<< HEAD
 Use the [R scprit](/script/manhattan_for_genes.R) here for the Manhattan plot:
+=======
+Use the [R scprit](/script/mahattan_for_genes.R) here for the Manhattan plot:
+>>>>>>> 33d022407579999472ee5e430acc2428ccca2da2
 
 ```
 manhattan_for_genes("cpd_SKAT_all", top=20, main_title = "CPD at SKAT")
