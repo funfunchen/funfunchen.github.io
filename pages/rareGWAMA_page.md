@@ -242,7 +242,8 @@ r$> head(anno)
 ...
 ```
 
-###2.2 Run the test
+### 2.2 Run the test
+
 Now, since we have loaded all your files, we are ready to run the test:
 
 ```
@@ -261,6 +262,7 @@ write_tsv(res, './results/cpd_SKAT_my_geneaa', na = "NA") ## here we use `write_
 ```
 
 ### 2.3 Summarize the results
+
 Now you have the result in the folder:
 
 ```
@@ -299,10 +301,10 @@ You could gather them together
 for f in cpd_SKAT_my_gene*; do tail -n +2 $f >> cpd_SKAT_all; done
 ```
 
-Use the scprit here for the Manhattan plot:
+Use the [R scprit](/script/manhattan_for_genes.R) here for the Manhattan plot:
 
 ```
-mahattan_for_genes("cpd_SKAT_all", top=20, main_title = "CPD at SKAT")
+manhattan_for_genes("cpd_SKAT_all", top=20, main_title = "CPD at SKAT")
 ```
 
 It should be like this:
