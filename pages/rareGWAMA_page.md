@@ -13,7 +13,9 @@ On the server, we will have following files:
 
 > * the score.stat.file:The statistics summary files, like:
 
-```less clean-CHS_CPD.MetaScore.assoc.gz```
+```
+less clean-CHS_CPD.MetaScore.assoc.gz
+```
 
 ```
 CHROM   POS     REF     ALT     N_INFORMATIVE   AF      INFORMATIVE_ALT_AC      CALL_RATE       HWE_PVALUE      N_REF   N_HET   N_ALT   U_STAT  SQRT_V_STAT     ALT_EFFSIZE     PVALUE
@@ -25,7 +27,9 @@ CHROM   POS     REF     ALT     N_INFORMATIVE   AF      INFORMATIVE_ALT_AC      
 
 >* imp.qual.file: The imputation quality file for each summary file, like:
 
-```less topmed.impqual.gz```
+```
+less topmed.impqual.gz
+```
 
 ```
 CHROM   POS     REF     ALT     Rsq
