@@ -1,6 +1,7 @@
 # The showcase for rareGWAMA
 
-**Project description:** rareGWAMA is powerful and flexible to many tests. But meanwhile it needs different information for different test. So here we will give you some examples for the *Conditional Single Variant Tests* and the *Gene Based Tests* in real life scenarios.
+**Project description:** 
+rareGWAMA is powerful and flexible to many tests. But meanwhile it needs different information for different test. So here we will give you some examples for the *Conditional Single Variant Tests* and the *Gene Based Tests* in real life scenarios.
 
 
 ## 1. the Conditional Single Variant Tests
@@ -13,7 +14,9 @@ On the server, we will have following files:
 
 > * the score.stat.file:The statistics summary files, like:
 
-```less clean-CHS_CPD.MetaScore.assoc.gz```
+```
+less clean-CHS_CPD.MetaScore.assoc.gz
+```
 
 ```
 CHROM   POS     REF     ALT     N_INFORMATIVE   AF      INFORMATIVE_ALT_AC      CALL_RATE       HWE_PVALUE      N_REF   N_HET   N_ALT   U_STAT  SQRT_V_STAT     ALT_EFFSIZE     PVALUE
@@ -25,7 +28,9 @@ CHROM   POS     REF     ALT     N_INFORMATIVE   AF      INFORMATIVE_ALT_AC      
 
 >* imp.qual.file: The imputation quality file for each summary file, like:
 
-```less topmed.impqual.gz```
+```
+less topmed.impqual.gz
+```
 
 ```
 CHROM   POS     REF     ALT     Rsq
@@ -41,7 +46,7 @@ CHROM   POS     REF     ALT     Rsq
 
 
 then, we could make a list for all of them:
-the THREE columns are `study name`, `the score.stat.file`, `imp.qual.file`, looks like:
+the THREE columns are _study name_, _the score.stat.file_, and _imp.qual.file_, looks like:
 
 ```less cpd.topmed-GSCAN1.index```
 
@@ -301,10 +306,11 @@ You could gather them together
 for f in cpd_SKAT_my_gene*; do tail -n +2 $f >> cpd_SKAT_all; done
 ```
 
-Use the [R scprit](/script/manhattan_for_genes.R) here for the Manhattan plot:
+Use the [R scprit](https://github.com/funfunchen/funfunchen.github.io/blob/master/script/manhattan_for_genes.R) here for the Manhattan plot:
 
 ```
-manhattan_for_genes("cpd_SKAT_all", top=20, main_title = "CPD at SKAT")
+gene_plot <- manhattan_for_genes("cpd_SKAT_all", top=20, main_title = "CPD at SKAT")
+gene_plot
 ```
 
 It should be like this:
