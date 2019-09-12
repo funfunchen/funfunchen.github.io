@@ -61,18 +61,17 @@ CHS ~/projects/GSCAN/TOPMed/freeze6a-Jan20-2019/clean/clean-CHS_CPD.MetaScore.as
 >* vcf.ref.file: The reference panel file, e.g. could be downloaded from 1000 Genomes Project, as:
 
 ```
-ls freeze.6a.chr*.vcf.*
+ls chr*.vcf.*
 ```
 
 ```
-freeze.6a.chr10.pass.gtonly.minDP10.vcf.gz       
-freeze.6a.chr10.pass.gtonly.minDP10.vcf.gz.scIdx  
-freeze.6a.chr18.pass.gtonly.minDP10.vcf.gz        
-freeze.6a.chr18.pass.gtonly.minDP10.vcf.gz.scIdx  
-freeze.6a.chr4.pass.gtonly.minDP10.vcf.gz
-freeze.6a.chr11.pass.gtonly.minDP10.vcf.gz.scIdx  
-freeze.6a.chr19.pass.gtonly.minDP10.vcf.gz          
-freeze.6a.chr19.pass.gtonly.minDP10.vcf.gz.scIdx  
+chr10.pass.vcf.gz       
+chr10.pass.vcf.gz.scIdx  
+chr18.pass.vcf.gz        
+chr4.pass.vcf.gz
+chr11.pass.vcf.gz.scIdx  
+chr19.pass.vcf.gz          
+chr19.pass.vcf.gz.scIdx  
 ...
 ```
 
@@ -309,6 +308,7 @@ for f in cpd_SKAT_my_gene*; do tail -n +2 $f >> cpd_SKAT_all; done
 Use the [R scprit](https://github.com/funfunchen/funfunchen.github.io/blob/master/script/manhattan_for_genes.R) here for the Manhattan plot:
 
 ```
+r$> 
 gene_plot <- manhattan_for_genes("cpd_SKAT_all", top=20, main_title = "CPD at SKAT")
 gene_plot
 ```
