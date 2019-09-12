@@ -1,7 +1,7 @@
 # The showcase for rareGWAMA
 
 **Project description:** 
-rareGWAMA is powerful and flexible to many tests. But meanwhile it needs different information for different test. So here we will give you some examples for the *Conditional Single Variant Tests* and the *Gene Based Tests* in real life scenarios.
+rareGWAMA is powerful and flexible to many tests. But meanwhile, it needs different information for a different test. So here we will give you some examples for the *Conditional Single Variant Tests* and the *Gene Based Tests* in real-life scenarios.
 
 
 ## 1. the Conditional Single Variant Tests
