@@ -253,10 +253,11 @@ Now, since we have loaded all your files, we are ready to run the test:
 ## choose the method in R
 rv_md <- "SKAT" ## or "VT", or "BURDEN"
 res.gene <- rareGWAMA.gene(score.stat.file, imp.qual.file=imp.qual.file, 
-								vcf.ref.file,refFileFormat="vcf.vbi", 
-								anno=anno, annoType=c('Nonsynonymous', 'Stop_Gain', "Essential_Splice_site"), 
-								rvtest=rv_md, ref.ancestry=ref.ancestry, 
-								trans.ethnic=TRUE, study.ancestry=study.ancestry, maf.cutoff=0.01);
+				vcf.ref.file,refFileFormat="vcf.vbi", 
+				anno=anno, annoType=c('Nonsynonymous', 'Stop_Gain', "Essential_Splice_site"), 
+				rvtest=rv_md, ref.ancestry=ref.ancestry, 
+				trans.ethnic=TRUE, study.ancestry=study.ancestry, 
+				maf.cutoff=0.01);
 ```
 
 ```
