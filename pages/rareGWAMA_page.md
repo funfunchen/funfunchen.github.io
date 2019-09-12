@@ -77,7 +77,7 @@ chr19.pass.vcf.gz.scIdx
 
 Make sure the sample ids match the `ref.ancestry` we will see later.
 ```
-zgrep -v "##" freeze.6a.chr10.pass.gtonly.minDP10.vcf.gz|less 
+zgrep -v "##" chr10.pass.vcf.gz|less 
 ```
 
 ```
@@ -130,7 +130,7 @@ KLHL17
 ...
 ```
 
-if you want to test all the ~20k genes, it's better to chop them into samll lists by 200 genes each. So you could run the tests parallelly later. You could use:
+if you want to test all the ~20k genes, it's better to chop them into samll lists with 200 genes each. So you could run the tests parallelly later. You could use:
 
 ```
 split gene_list/gene.list -l 200 my_gene
@@ -173,9 +173,8 @@ AACAC           1.02    0.98
 ALSPAC          1.01    1
 AMISH           1.027   1.397
 ARIC            0.973   0.999
-
+...
 ```
-
 
 
 ### 2.2 Running the test in R
@@ -267,7 +266,7 @@ write_tsv(res, './results/cpd_SKAT_my_geneaa', na = "NA") ## here we use `write_
 
 ### 2.3 Summarize the results
 
-Now you have the result in the folder:
+Now we have the result in the folder:
 
 ```
 less cpd_SKAT_my_geneaa
@@ -285,7 +284,7 @@ PLEKHN1 1:971135-974343 0.442   0.686   0.000317137298607967    2       0.00111 
 PERM1   1:976215-981169 NULL    NULL    0       0               NA      NA      NA
 ```
 
-And maybe you will have bunch of them if you run the tests parallelly.
+And maybe we will have bunch of them if we run the tests parallelly.
 
 ```
 ls cpd_SKAT_my_gene*
