@@ -33,7 +33,7 @@ manhattan_for_genes <- function(res_file, top=20, main_title="Gene Based Test", 
   gap <- (vline.df$start[-1] + vline.df$end[-nrow(vline.df)])/2
   bp <- bp + geom_vline(xintercept=gap, alpha=0.5, color='gray70') + theme(panel.grid=element_blank())
   
-  ## hilight
+  ## highlight
   if(!is.null(top)){
     df_highlight <- arrange(df, desc(-log(pval))) %>% slice(1:top)
     top.label.size <- 3
