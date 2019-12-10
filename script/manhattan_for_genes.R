@@ -17,6 +17,8 @@ manhattan_for_genes <- function(res_file, top=20, main_title="Gene Based Test", 
   res$end <- as.integer(res$end)
   res <- res %>% mutate(end = ifelse(start <= end, end, start+1))
   
+  res[which(res$pval<=10^-35), ]$pval <- 10^-20
+  
   tst <- makeGRangesFromDataFrame(res, keep.extra.columns=T, ignore.strand = T)
   
   suppressMessages(ggp <- ggbio::autoplot(object=tst, aes(y=-log10(pval),color=seqnames, alpha=-log(pval)), 
@@ -35,7 +37,7 @@ manhattan_for_genes <- function(res_file, top=20, main_title="Gene Based Test", 
   
   ## highlight
   if(!is.null(top)){
-    df_highlight <- arrange(df, desc(-log(pval))) %>% slice(1:top)
+    df_highlight <- arrange(df, desc(-log(pval))) %>% dplyr::slice(1:top)
     top.label.size <- 3
     top.label.col <- "darkblue"
     bp <- bp + ggrepel::geom_text_repel(data=df_highlight, aes(x=midpoint, y=-log10(pval), label=gene), 
