@@ -19,7 +19,7 @@ It could perform gene-level tests. The latest implementation is for TESLA (optim
 
 ## Posters & presentations
 
-- [ASHG 2017](https://www.ashg.org/wp-content/uploads/2019/10/2017-Poster-Abstracts.pdf)
+- [ASHG 2017](https://www.ashg.org/wp-content/uploads/2019/10/2017-Poster-Abstracts.pdf) <br>
 **Poster presentation** <br>
 Topic: Assessing the causal impact of smoking and drinking on human health outcomes: Using 442 novel genetic associations for smoking and drinking addictions and a robust ensemble method for causal inference. <br>
 <img src="images/ashg17.png?raw=true"/>
@@ -45,12 +45,12 @@ Topic: Trans-ethnic Transcriptome-wide Association Study for Smoking Addiction i
 
 ## Publications
 
-###2016-present
+### 2016-present
 - Jiang Y, Chen S, McGuire D, Chen F, Liu M, Iacono WG, Hewitt JK, Hokanson JE, Krauter K, Laakso M, Li KW, Lutz SM, McGue M, McGuire D, Pandit A, Zajac G, Boehnke M, Abecasis GR, Vrieze SI, Zhan X, Jiang B, Liu DJ. Proper Conditional Analysis in the Presence of Missing Data: Application to Large Scale Meta-analysis of Tobacco Use Phenotypes, PLOS Genetics. 2018, 14 (7), e1007452
 - Liu M, Jiang Y, Wedow R, Li Y, Brazel D, Chen F, Datta G, et al, Association studies of up to 1.2 million individuals yield new insights into the genetic etiology of tobacco and alcohol use, Nature Genetics. 2019, 51, 237–244
 - Erzurumluoglu AM, Liu M, Jackson VE, Barnes DR, …, Chen F, …, Liu DJ, Howson JMM, Meta-analysis of up to 622,409 individuals identifies 40 novel smoking behaviour associated genetic loci, Molecular Psychiatry. 2019
 
-###2006-2012
+### 2006-2012
 - Chen F*, Wang C, Li R, An J, Yu L. T-LAK cell-originated protein kinase is essential for the proliferation of hepatocellular carcinoma SMMC-7721 cells. Cell Biochem Funct. DOI: 10.1002/cbf.2964
 - Cao L*, Chen F*, Yu L. Evolution of cell cycle control during metazoa emergence: insights from phylogeny analysis of CDK and Cyclin proteins. (Co-first author) Mol Biol Evol. 2014, 14:10
 - Liu M, Shen S, Chen F, Yu W, Yu L. Linking the septin expression with carcinogenesis. Mol Biol Rep. 2010 Oct;37(7):3601-8.
