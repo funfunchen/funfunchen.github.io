@@ -2,13 +2,13 @@
 
 ---
 
-## Softwares
+## I. Softwares
 
 [rareGWAMA](/pages/rareGWAMA_page) <br>
 *rareGWMA* is a Swiss army knife-like sofeware for imputation based GWAS meta-analysis.
 It could perform gene-level tests. The latest implementation is for TESLA (optimal linear combination of association statistics), a novel method for trans-ethnic TWAS (transcriptome-wide association studies).
 
-<img src="images/rareGWAMA_demo_1.png?raw=true"/>
+<img src="images/TESLA_demo_1.png?raw=true"/>
 
 ---
 [simpleMR](https://github.com/funfunchen/simpleMR) <br>
@@ -16,8 +16,11 @@ It could perform gene-level tests. The latest implementation is for TESLA (optim
 <img src="images/simpleMR_demo_1.png?raw=true"/>
 
 ---
+[Udacity projects]
 
-## Posters & presentations
+---
+
+## II. Posters & presentations
 
 - [ASHG 2017](https://www.ashg.org/wp-content/uploads/2019/10/2017-Poster-Abstracts.pdf) <br>
 **Poster presentation** <br>
@@ -43,7 +46,7 @@ Topic: Trans-ethnic Transcriptome-wide Association Study for Smoking Addiction i
 
 ---
 
-## Publications
+## III. Publications
 
 ### 2016-present
 - Jiang Y, Chen S, McGuire D, Chen F, Liu M, Iacono WG, Hewitt JK, Hokanson JE, Krauter K, Laakso M, Li KW, Lutz SM, McGue M, McGuire D, Pandit A, Zajac G, Boehnke M, Abecasis GR, Vrieze SI, Zhan X, Jiang B, Liu DJ. Proper Conditional Analysis in the Presence of Missing Data: Application to Large Scale Meta-analysis of Tobacco Use Phenotypes, PLOS Genetics. 2018, 14 (7), e1007452
